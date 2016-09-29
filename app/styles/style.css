@@ -113,7 +113,7 @@ body {
 .section-title {
   text-align: center;
   padding-bottom: 40px;
-  padding-top: 80px;
+  padding-top: 40px;
 }
 .section-title h2 {
   font-size: 32px;
@@ -123,6 +123,7 @@ body {
   margin: 0px;
   padding-top: 20px;
 }
+
 .section-title h2 i {
   margin-right: 30px;
 }
@@ -499,7 +500,7 @@ h1 {
   margin-bottom: -2px;
 }
 #blog #blog-post-1 {
-  background-color: #e95855;
+  background-color: #2196f3;
 }
 #blog #blog-post-2 {
   background-color: #707281;

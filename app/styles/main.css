@@ -84,25 +84,73 @@ body {
   color: #2196f3;
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
+#preloader{
+  margin-top: 20%;
+  margin-left: 46%;
+  margin-bottom: 100%;
+}
+
+
+/*@media screen and (min-width: 768px) {
   .container {
     max-width: 730px;
   }
 
-  /* Remove the padding we set earlier */
+
   .header,
   .marketing,
   .footer {
     padding-left: 0;
     padding-right: 0;
   }
-  /* Space out the masthead */
+
   .header {
     margin-bottom: 30px;
   }
-  /* Remove the bottom border on the jumbotron for visual effect */
+
   .jumbotron {
     border-bottom: 0;
   }
+}*/
+
+/* media queries:  change number of items per row */
+@media screen and (max-width: 1190px) {
+  
+
+}
+
+@media screen and (max-width: 1024px) {
+  .cd-timeline-block{
+    padding-top: 4%;
+    padding-bottom: 1%;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .cd-timeline-block{
+    padding-top: 6%;
+    padding-bottom: 1%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cd-timeline-block{
+    padding-top: 7%;
+    padding-bottom: 1%;
+  }
+
+}
+
+@media screen and (max-width: 300px) {
+
+  #intro-responsive {
+     max-width: 262px;
+  }
+
+  #btn-responsive{
+    margin-left: -10%;
+  }
+
 }
